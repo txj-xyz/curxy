@@ -51,7 +51,7 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
    ```
 
    ```bash
-   OPENAI_API_KEY=your_openai_api_key deno run -A jsr:@ryoppippi/curxy
+   deno run -A jsr:@ryoppippi/curxy
 
    Listening on http://127.0.0.1:62192/
    ◐ Starting cloudflared tunnel to http://127.0.0.1:62192                                                                                                                                                                                                                                                           5:39:59 PM

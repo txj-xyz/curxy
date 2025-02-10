@@ -57,7 +57,11 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
    Server running at: https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 )
     enter  https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 ​) into Override OpenAl Base URL section in cursor settings
    ```
-
+   测试链接
+   ```bash
+   curl -X GET "https://affair-powers-craig-national.trycloudflare.com/v1/tags" -H "Authorization: Bearer sk-proj-fwexxxxx"
+   ```
+   
    您可以获取由 cloudflare 托管的公共 URL.
 
 4. 将 curxy 提供的 URL 及其后附加的 /v1 输入到光标编辑器配置的  _“覆盖 OpenAl 基本 URL”_  部分

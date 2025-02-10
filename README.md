@@ -49,13 +49,13 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
    基于你本地环境和调整也可能是：
    https://trycloudflare.com/v1
    ```
-
+   Windows运行
    ```bash
-   deno run -A jsr:@ryoppippi/curxy
-
-   Listening on http://127.0.0.1:62192/
-   ◐ Starting cloudflared tunnel to http://127.0.0.1:62192                                                                                                                                                                                                                                                           5:39:59 PM
-   Server running at: https://remaining-chen-composition-dressed.trycloudflare.com
+   PS F:\curxy-main> deno run -A jsr:@ryoppippi/curxy
+   Listening on http://127.0.0.1:55300/
+   o Starting cloudflared tunnel to http://127.0.0.1:55300 
+   Server running at: https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 )
+    enter  https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 ​) into Override OpenAl Base URL section in cursor settings
    ```
 
    您可以获取由 cloudflare 托管的公共 URL.

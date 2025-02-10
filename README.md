@@ -6,10 +6,10 @@
 [![JSR](https://jsr.io/badges/@ryoppippi/curxy/score)](https://jsr.io/@ryoppippi/curxy)
 
 Ollama 在 Cursor 中使用的代理工作器
-这是什么？
+##这是什么？
 这是一个 代理工作器，用于在 Cursor 编辑器中使用 Ollama。它是一个简单的服务器，用于将请求转发到 Ollama 服务器并返回响应。
 
-为什么需要这个？
+##为什么需要这个？
 在 Cursor 编辑器中使用 LLM 预测时，编辑器会将数据发送到 官方 Cursor 服务器，然后再由 Cursor 服务器转发到 Ollama 服务器。
 因此，即使在 Cursor 编辑器的配置中将 API 端点 设置为 localhost，Cursor 服务器本身也无法直接与本地服务器通信。
 为了实现本地调用，我们需要一个代理工作器，将数据从 Cursor 服务器转发到 Ollama 服务器。

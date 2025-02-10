@@ -32,7 +32,7 @@ Ollama 在 Cursor 中使用的代理工作器
    deno run -A jsr:@ryoppippi/curxy
    ```
 
-   if you limit the access to the ollama server, you can set `OPENAI_API_KEY`
+   如果您限制对 ollama 服务器的访问，您可以设置 OPENAI_API_KEY 环境变量。
    environment variable.
 
    ```bash

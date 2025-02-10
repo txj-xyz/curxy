@@ -5,31 +5,25 @@
 [![JSR](https://jsr.io/badges/@ryoppippi/curxy)](https://jsr.io/@ryoppippi/curxy)
 [![JSR](https://jsr.io/badges/@ryoppippi/curxy/score)](https://jsr.io/@ryoppippi/curxy)
 
-An proxy worker for using ollama in cursor
+Ollama 在 Cursor 中使用的代理工作器
+这是什么？
+这是一个 代理工作器，用于在 Cursor 编辑器中使用 Ollama。它是一个简单的服务器，用于将请求转发到 Ollama 服务器并返回响应。
 
-## What is this?
-
-This is a proxy worker for using ollama in cursor. It is a simple server that
-forwards requests to the ollama server and returns the response.
-
-## Why do you need this?
-
-When we use llm prediction on cusor editor, the editor sends to the data to the
-official cursor server, and the server sends the data to the ollama server.
-Therefore, even if the endpoint is set to localhost in the cursor editor
-configuration, the cursor server cannot send communication to the local server.
-So, we need a proxy worker that can forward the data to the ollama server.
+为什么需要这个？
+在 Cursor 编辑器中使用 LLM 预测时，编辑器会将数据发送到 官方 Cursor 服务器，然后再由 Cursor 服务器转发到 Ollama 服务器。
+因此，即使在 Cursor 编辑器的配置中将 API 端点 设置为 localhost，Cursor 服务器本身也无法直接与本地服务器通信。
+为了实现本地调用，我们需要一个代理工作器，将数据从 Cursor 服务器转发到 Ollama 服务器。
 
 ## requirements
 
-- deno
-- ollama server
+- deno   安装去这里 https://docs.deno.com/runtime/getting_started/installation/
+- ollama server  安装去这里  https://ollama.com/
 
 ## How to use
 
-1. Launch the ollama server
+1. 启动 Ollama 服务器
 
-2. Launch curxy
+2. 启动 Curxy
 
    ```sh
    deno run -A jsr:@ryoppippi/curxy

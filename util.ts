@@ -104,14 +104,14 @@ Deno.test("chooseEndpoint", async () => {
   );
   assertEquals(
     chooseEndpoint({
-      model: "mistral-7b-b1.58",
+      model: "deepseek-r1:32b",
       ...basseOption,
     }),
     "http://localhost:11434",
   );
   assertEquals(
     chooseEndpoint({
-      model: "command-r:35b",
+      model: "qwen2.5-coder:32b",
       ...basseOption,
     }),
     "http://localhost:11434",

@@ -59,15 +59,13 @@ Ollama 在 Cursor 中使用的代理工作器
    Server running at: https://remaining-chen-composition-dressed.trycloudflare.com
    ```
 
-   You can get the public URL hosted by cloudflare.
+   您可以获取由 cloudflare 托管的公共 URL.
 
-4. Enter the URL provided by `curxy` with /v1 appended to it into the "Override
-   OpenAl Base URL" section of the cursor editor configuration.
+4. 将 curxy 提供的 URL 及其后附加的 /v1 输入到光标编辑器配置的“覆盖 OpenAl 基本 URL”部分 _cursor_ 不支持的模型你加了也用不了
 
 ![cursor](https://github.com/user-attachments/assets/83a54310-0728-49d8-8c3f-b31e0d8e3e1b)
 
-4. Add model names you want to "Model Names" section of the cursor editor
-   configuration.
+4. 将您想要的模型名称添加到光标编辑器配置的“模型名称”部分，
 
 ![Screenshot 2024-08-22 at 23 42 33](https://github.com/user-attachments/assets/c24fed7c-c61e-46a0-b735-ccf594a96363)
 

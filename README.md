@@ -91,7 +91,8 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
 
 ## Related
 
-[Japanese Article](https://zenn.dev/ryoppippi/articles/02c618452a1c9f)
+[Japanese Article](https://zenn.dev/ryoppippi/articles/02c618452a1c9f)   
+[ryoppippi] (https://github.com/ryoppippi/curxy)  
 
 ## License
 

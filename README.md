@@ -26,8 +26,17 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
 ## 怎么使用
 
 1. 启动 Ollama 服务器
-
-2. 启动 Curxy
+2. util.ts 中增加你本地拥有的模型
+   ```sh
+     assertEquals(
+       chooseEndpoint({
+         model: "deepseek-r1:32b",
+         ...basseOption,
+       }),
+       "http://localhost:11434",
+     );
+   ```
+3. 启动 Curxy
 
    ```sh
    deno run -A jsr:@ryoppippi/curxy

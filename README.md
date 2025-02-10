@@ -42,6 +42,7 @@ Ollama 在 Cursor 中使用的代理工作器
    ◐ Starting cloudflared tunnel to http://127.0.0.1:62192                                                                                                                                                                                                                                                           5:39:59 PM
    Server running at: https://remaining-chen-composition-dressed.trycloudflare.com
    ```
+   ![24fbfd919e00efd40cf9367bd8590c9](https://github.com/user-attachments/assets/71d5764c-5cfb-41b0-a161-e6e587577a16)
 
    You can get the public URL hosted by cloudflare.
 

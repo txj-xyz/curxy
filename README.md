@@ -57,7 +57,7 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
    Server running at: https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 )
     enter  https://trycloudflare.com/v1 ( https://trycloudflare.com/v1 ​) into Override OpenAl Base URL section in cursor settings
    ```
-   测试链接
+   使用 API KEY 测试链接返回模型
    ```bash
    curl -X GET "https://affair-powers-craig-national.trycloudflare.com/v1/tags" -H "Authorization: Bearer sk-proj-fwexxxxx"
    ```

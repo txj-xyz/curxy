@@ -37,8 +37,18 @@ Ollama 在 Cursor 中使用的代理工作器
    OLLAMA HOST 设置为 0.0.0.0:11434
    OPENAI API KEY 在环境变量中全局设置一个配合使用
    在Cursor使用需要外网访问记得路由器上打开本机的 IP + 11434端口转发
+   
    ```
    ![24fbfd919e00efd40cf9367bd8590c9](https://github.com/user-attachments/assets/71d5764c-5cfb-41b0-a161-e6e587577a16)
+
+
+   完整的api调用URL应该像这样：
+   ```sh
+   https://trycloudflare.com/v1/chat/completions
+   基于你本地环境和调整也可能是：
+   https://trycloudflare.com/v1
+   ```
+   ![image](https://github.com/user-attachments/assets/085705e1-ecca-48a9-b005-bd33f77bc642)
 
 
    ```bash

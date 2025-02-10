@@ -32,7 +32,8 @@ Ollama 在 Cursor 中使用的代理工作器
    deno run -A jsr:@ryoppippi/curxy
    ```
 
-   如果您限制对 ollama 服务器的访问，您可以设置 OPENAI_API_KEY 环境变量。
+   如果您限制对 ollama 服务器的访问，您可以设置 OPENAI_API_KEY 环境变量。参考下图 OLLAMA HOST 设置为 0.0.0.0:11434 ，OPENAI API KEY 全局设置一个，在Cursor使用需要外网访问记得路由器上打开本机的 IP + 11434端口转发
+   ![24fbfd919e00efd40cf9367bd8590c9](https://github.com/user-attachments/assets/71d5764c-5cfb-41b0-a161-e6e587577a16)
    environment variable.
 
    ```bash
@@ -42,11 +43,10 @@ Ollama 在 Cursor 中使用的代理工作器
    ◐ Starting cloudflared tunnel to http://127.0.0.1:62192                                                                                                                                                                                                                                                           5:39:59 PM
    Server running at: https://remaining-chen-composition-dressed.trycloudflare.com
    ```
-   ![24fbfd919e00efd40cf9367bd8590c9](https://github.com/user-attachments/assets/71d5764c-5cfb-41b0-a161-e6e587577a16)
 
    You can get the public URL hosted by cloudflare.
 
-3. Enter the URL provided by `curxy` with /v1 appended to it into the "Override
+4. Enter the URL provided by `curxy` with /v1 appended to it into the "Override
    OpenAl Base URL" section of the cursor editor configuration.
 
 ![cursor](https://github.com/user-attachments/assets/83a54310-0728-49d8-8c3f-b31e0d8e3e1b)

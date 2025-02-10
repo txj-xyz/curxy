@@ -14,9 +14,9 @@ Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器�
 
 ## 为什么需要这个？
 
-在 Cursor 编辑器中使用 LLM 预测时，编辑器会将数据发送到 官方 Cursor 服务器，然后再由 Cursor 服务器转发到 Ollama 服务器。
-因此，即使在 Cursor 编辑器的配置中将 API 端点 设置为 localhost，Cursor 服务器本身也无法直接与本地服务器通信。
-为了实现本地调用，我们需要一个代理工作器，将数据从 Cursor 服务器转发到 Ollama 服务器。
+当在 Cursor 编辑器 中运行 LLM 预测 时，编辑器会将数据发送到 官方 Cursor 服务器，然后再由该服务器转发给 Ollama。
+问题是，即使在 Cursor 配置中将 API 端点设置为 localhost，Cursor 服务器 无法直接与本地 Ollama 通信。
+因此，我们需要一个 代理服务器（proxy worker），用于将 Cursor 服务器的请求正确地转发到本地的 Ollama 服务器。
 
 ## 要求
 

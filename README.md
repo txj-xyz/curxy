@@ -48,8 +48,6 @@ Ollama 在 Cursor 中使用的代理工作器
    基于你本地环境和调整也可能是：
    https://trycloudflare.com/v1
    ```
-   ![image](https://github.com/user-attachments/assets/085705e1-ecca-48a9-b005-bd33f77bc642)
-
 
    ```bash
    OPENAI_API_KEY=your_openai_api_key deno run -A jsr:@ryoppippi/curxy
@@ -63,11 +61,11 @@ Ollama 在 Cursor 中使用的代理工作器
 
 4. 将 curxy 提供的 URL 及其后附加的 /v1 输入到光标编辑器配置的“覆盖 OpenAl 基本 URL”部分 _cursor_ 不支持的模型你加了也用不了
 
-![cursor](https://github.com/user-attachments/assets/83a54310-0728-49d8-8c3f-b31e0d8e3e1b)
+   ![image](https://github.com/user-attachments/assets/085705e1-ecca-48a9-b005-bd33f77bc642)
 
 4. 将您想要的模型名称添加到光标编辑器配置的“模型名称”部分，
 
-![image](https://github.com/user-attachments/assets/4dbfd8d6-add2-4ecd-8466-a0540a1aca5c)
+   ![image](https://github.com/user-attachments/assets/4dbfd8d6-add2-4ecd-8466-a0540a1aca5c)
 
 
 5. （可选）：此外，如果您出于安全原因想要限制对此代理服务器的访问，则可以将 OPENAI_API_KEY 设置为环境变量，这将根据密钥启用访问限制。

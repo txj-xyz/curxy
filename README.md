@@ -67,15 +67,14 @@ Ollama 在 Cursor 中使用的代理工作器
 
 4. 将您想要的模型名称添加到光标编辑器配置的“模型名称”部分，
 
-![Screenshot 2024-08-22 at 23 42 33](https://github.com/user-attachments/assets/c24fed7c-c61e-46a0-b735-ccf594a96363)
+![image](https://github.com/user-attachments/assets/4dbfd8d6-add2-4ecd-8466-a0540a1aca5c)
 
-5. (Optional): Additionally, if you want to restrict access to this Proxy Server
-   for security reasons, you can set the OPENAI_API_KEY as an environment
-   variable, which will enable access restrictions based on the key.
 
-6. **Enjoy!**
+5. （可选）：此外，如果您出于安全原因想要限制对此代理服务器的访问，则可以将 OPENAI_API_KEY 设置为环境变量，这将根据密钥启用访问限制。
 
-Also, you can see help message by `deno run -A jsr:@ryoppippi/curxy --help`
+6. **祝你好运!**
+
+您还可以通过以下方式查看帮助信息 `deno run -A jsr:@ryoppippi/curxy --help`
 
 ## Related
 

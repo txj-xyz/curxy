@@ -9,7 +9,8 @@ Ollama 在 Cursor 中使用的代理工作器
 
 ## 这是什么？
 
-这是一个 代理工作器，用于在 Cursor 编辑器中使用 Ollama。它是一个简单的服务器，用于将请求转发到 Ollama 服务器并返回响应。
+Curxy 是一个 代理服务器（proxy worker），用于在 Cursor 编辑器中使用 Ollama。
+它的主要功能是将 Cursor 编辑器的请求转发到本地的 Ollama 服务器，并返回响应。
 
 ## 为什么需要这个？
 

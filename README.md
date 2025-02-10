@@ -17,12 +17,12 @@ Ollama 在 Cursor 中使用的代理工作器
 因此，即使在 Cursor 编辑器的配置中将 API 端点 设置为 localhost，Cursor 服务器本身也无法直接与本地服务器通信。
 为了实现本地调用，我们需要一个代理工作器，将数据从 Cursor 服务器转发到 Ollama 服务器。
 
-## requirements
+## 要求
 
 - deno   安装去这里 https://docs.deno.com/runtime/getting_started/installation/
 - ollama server  安装去这里  https://ollama.com/
 
-## How to use
+## 怎么使用
 
 1. 启动 Ollama 服务器
 

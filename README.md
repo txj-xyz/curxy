@@ -59,7 +59,8 @@ Ollama 在 Cursor 中使用的代理工作器
 
    您可以获取由 cloudflare 托管的公共 URL.
 
-4. 将 curxy 提供的 URL 及其后附加的 /v1 输入到光标编辑器配置的  _“覆盖 OpenAl 基本 URL”_  部分 _cursor_ 不支持的模型你加了也用不了
+4. 将 curxy 提供的 URL 及其后附加的 /v1 输入到光标编辑器配置的  _“覆盖 OpenAl 基本 URL”_  部分
+   **提醒：_cursor_ 不支持的模型你加了也用不了
 
    ![image](https://github.com/user-attachments/assets/085705e1-ecca-48a9-b005-bd33f77bc642)
 
